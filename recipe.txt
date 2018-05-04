@@ -6,6 +6,10 @@ pasta
 beans
 fried chicken
 
+pizza
+chapati
 
 
 Thank you:)
+
+done my changes

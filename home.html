@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript">
+    function validate(){
+       var username = document.getElementById('username').value;
+       var username = document.getElementById('password').value;
+        
+        if(username =="" || password ==""){
+           alert("please fill in all fields");
+            return false;
+        }
+        else{
+           return true; 
+        }
+    }
+    </script>
+</head>
+
+<body>
+   
+   <form action="index.html" method="POST" onsubmit="return validate();">
+       username: <input type="text" name="username" id="username">
+       password: <input type="text" name="password" id="password">
+        <input type="submit" value="login">
+   </form>
+    <script>
+//        document.write("hello world");
+//        var num1 = prompt("enter number1");
+//        var num2 = prompt("enter number2");
+//        var a= parseInt (num1);
+//        var b= parseInt (num2);
+//        var sum=a+b;
+//        Document.write (alert(sum));
+        
+//        document.write("welcome to javascript");
+//        document.write("the total number is"+ 12);
+//        document.write(12 +"the total number ");
+        
+//      var marks= (prompt("enter number"));
+//        if(marks>=50){
+//            document.write("pass");
+//        }
+//        else{
+//            document.write("fail");
+//        }
+        
+        
+//      var average=(prompt("enter the number"));
+//        if(average>=90 & average<=100){
+//            document.write("A");
+//        }
+//        else if(average>=80 & average<=90){
+//            document.write("B");
+//        }
+//        else if(average>=60 & average<=70){
+//            document.write("C");
+//        }
+//        else if(average>=50 & average<=60){
+//            document.write("D");
+//        }
+//        else{
+//            document.write("E");
+//        }
+        
+        
+        
+    
+          
+//        var A=(prompt("enter the value web"));
+//        var B=(prompt("enter the value oop"));
+//        var C=(prompt("enter the value java"));
+//        var D=(prompt("enter the value engineering"));
+//        var E=(prompt("enter the value python"));
+//        var F=(prompt("enter the value "));
+//        
+//        
+//        var total= A+B+C+D+E+F;
+//        document.write("your total is" total);
+//            average= total/6;
+//        
+//        document.write("you average is" average);
+        
+//        var person={
+//            name: 'iantez',
+//            familt:'fereydoon',
+//            id:12
+//        }
+//        document.write(person);
+        
+        
+//        switch case
+        
+//        var no = prompt("enter the number to test");
+//        switch (no){
+//            case '1':
+//                document.write("ten")
+//                break;
+//            case '2':
+//                document.write("twenty")
+//                break;
+//            case '3':
+//                document.write("thirty")
+//                break;
+//            default:
+//                document.write("invalid number");
+        
+//        var count = 100;
+//        document.write("starts the loop");
+//        while(count>0){
+//            document.write("current count" + count + "<br/>"); count --
+//        }
+//        document.write("loop stops");
+        var count;
+          for (count = 0; count<10; "<br/>" count++){
+            document.write(count);  
+          }
+        
+        
+    </script>
+    
+   
+    
+</body>
+
+</html>
